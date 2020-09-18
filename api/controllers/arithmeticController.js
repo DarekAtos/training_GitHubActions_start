@@ -21,6 +21,7 @@ exports.calculate = function(req, res) {
 
   if (! req.query.operation) {
     throw new Error("Unspecified operation");
+    
   }
 
   var operation = operations[req.query.operation];
