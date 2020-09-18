@@ -9,7 +9,7 @@ on:
 env:
   TEST: test
   TEST2: test2
-  USER: DarekAtos
+  USER: darekatos
   REPO: training_githubactions_start
 
 jobs:
